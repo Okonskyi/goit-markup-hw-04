@@ -20,6 +20,13 @@ h6 {
   margin: 0;
   padding: 0;
 }
+h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
 h2 {
   font-family: "Roboto", sans-serif;
   color: var(--brand-text-color1);
@@ -132,6 +139,12 @@ img {
   background-color: #ececec;
   height: 1px;
 }
+
+/* ---------- Основной контент (Герой) ---------- */
+
+.main-title-portfolio-page {
+  display: none;
+}
 .filter {
   padding-bottom: 16px;
   margin-top: 94px;
@@ -166,11 +179,6 @@ img {
   border: none;
   /* outline: none; */
 }
-
-/* ---------------------тестирую----------------------- */
-
-/* border: 1px solid teal; */
-/* --------------------протестировано----------------- */
 .project-list {
   display: flex;
   flex-wrap: wrap;
@@ -189,8 +197,7 @@ img {
 .project-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
-.h2-title {
+.project-type {
   color: var(--brand-text-color2);
   font-size: 16px;
   line-height: 1.87;
@@ -202,11 +209,6 @@ img {
   border-bottom: 1px solid #eee;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
-}
-/* ---------- Основной контент (Герой) ---------- */
-
-.h1-hidden {
-  display: none;
 }
 
 /* --------- Подвал сайта (Футтер) --------- */
@@ -240,3 +242,8 @@ img {
 .color-footer-60 {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* ---------------------тестирую----------------------- */
+
+/* border: 1px solid teal; */
+/* --------------------протестировано----------------- */
