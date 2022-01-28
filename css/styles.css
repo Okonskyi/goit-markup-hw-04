@@ -26,6 +26,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 h2 {
   font-family: "Roboto", sans-serif;
@@ -140,7 +141,7 @@ img {
   height: 1px;
 }
 
-/* ---------- Основной контент (Герой) ---------- */
+/* ---------- Страница Портфолио---Основной контент (Герой) ---------- */
 
 .main-title-portfolio-page {
   display: none;
@@ -243,7 +244,65 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* ---------- Главная страница----------- */
+
+/* -----------Основной контент (Герой) ---------- */
+
+.hero-homepage {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/Hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-homepage-content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-image: url("/images/png/Img Overlay.png"),
+  background-repeat: no-repeat;
+  background-position: center; 
+  align-items: center;
+}
+.main-title-homepage {
+  color: var(--main-bcg-color);
+  margin-top: 200px;
+}
+.main-title-homepage p {
+  display: flex;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
+
+}
+
+.button-hero-homepage{
+
+  background-color: var(--brand-color);
+  padding: 10px 32px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  /* display: flex; */
+}
+.button-hero-homepage-text{
+  /* margin: 10px 32px; */
+  color: var(--main-bcg-color);
+  background-color: var(--brand-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* -----------Блок с особенностями работы (Герой) ---------- */
+
+
+
 /* ---------------------тестирую----------------------- */
 
 /* border: 1px solid teal; */
-/* --------------------протестировано----------------- */
+/* --------------------протестировано----------------- */ ;
