@@ -219,6 +219,7 @@ img {
   padding-bottom: 60px;
   background-color: var(--footer-color);
   margin: 0 auto;
+  max-width: 1600px;
 }
 .logo-studio-footer {
   color: var(--main-bcg-color);
@@ -250,20 +251,23 @@ img {
 
 .hero-homepage {
   height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   justify-content: center;
-  background-image: url("/images/Hero.jpg");
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, #2f303a66, #2f303a66), url("../images/Hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
-.hero-homepage-content{
+.hero-homepage-content {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  background-image: url("/images/png/Img Overlay.png"),
-  background-repeat: no-repeat;
-  background-position: center; 
   align-items: center;
+  /* background-image: url("/images/png/Img Overlay.png"),
+  background-repeat: no-repeat;
+  background-position: center;  */
 }
 .main-title-homepage {
   color: var(--main-bcg-color);
@@ -274,21 +278,16 @@ img {
   justify-content: center;
   padding: 0 auto;
   margin: 0 auto;
-
 }
-
-.button-hero-homepage{
-
+.button-hero-homepage {
   background-color: var(--brand-color);
   padding: 10px 32px;
   margin-top: 30px;
   cursor: pointer;
   border-radius: 4px;
   border: none;
-  /* display: flex; */
 }
-.button-hero-homepage-text{
-  /* margin: 10px 32px; */
+.button-hero-homepage-text {
   color: var(--main-bcg-color);
   background-color: var(--brand-color);
   font-style: normal;
@@ -298,11 +297,236 @@ img {
   letter-spacing: 0.06em;
 }
 
-/* -----------Блок с особенностями работы (Герой) ---------- */
+/* -----------Блок с преимуществами (Герой) ---------- */
 
+.title-benefits {
+  display: none;
+}
+.benefits-list {
+  display: flex;
+  /* justify-content: inherit; */
+  margin: 94px 0;
+}
+.benefits-block:not(:first-child) {
+  margin-left: 30px;
+}
+.benefits-block {
+  width: 270px;
+}
+.benefit-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-text-color1);
+}
+.benefit-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--brand-text-color2);
+  letter-spacing: 0.03em;
+  /* width: 270px;
+  height: 251px; */
+  margin-top: 10px;
+}
+.benefits-block::before {
+  display: block;
+  content: "";
+  height: 120px;
+  border-radius: 4px;
+  /* background-image: url(../images/png/Benefits/antenna\ 1.png); */
+  /* background-size: contain; */
+  background: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.icon-antena::before {
+  background-image: url(/images/png/Benefits/antenna\ 1.png);
+}
+.icon-diagram::before {
+  background-image: url(/images/png/Benefits/diagram\ 1.png);
+}
+.icon-clock::before {
+  background-image: url(/images/png/Benefits/clock\ 1.png);
+}
+.icon-astronaut::before {
+  background-image: url(/images/png/Benefits/astronaut\ 1.png);
+}
+/* .benefits-block:nth-child(1)::before {
+  background-image: url(/images/png/Benefits/antenna\ 1.png);
+}
+.benefits-block:nth-child(2)::before {
+  background-image: url(/images/png/Benefits/diagram\ 1.png);
+}
+.benefits-block:nth-child(3)::before {
+  background-image: url(/images/png/Benefits/clock\ 1.png);
+}
+.benefits-block:nth-child(4)::before {
+  background-image: url(/images/png/Benefits/astronaut\ 1.png); */
 
+/* -------- Блок-Фотографии (Герой) --------- */
 
-/* ---------------------тестирую----------------------- */
+.worktype {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color1);
+  margin-bottom: 50px;
+}
+.worktype-list {
+  display: flex;
+  justify-content: space-between;
+}
 
-/* border: 1px solid teal; */
-/* --------------------протестировано----------------- */ ;
+/* -------- Блок-наша-команда (Герой) --------- */
+
+.team {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color1);
+  margin-bottom: 50px;
+  margin-top: 188px;
+}
+.teams-list {
+  display: flex;
+  margin: 50px 0;
+}
+.teams-block {
+  width: 270px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--main-bcg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.teams-block:not(:first-child) {
+  margin-left: 30px;
+}
+.teammate {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color1);
+  margin-top: 30px;
+}
+.profession {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color2);
+  margin-top: 10px;
+}
+.teams-social-icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+  /* width: 206px; */
+  height: 44px;
+}
+.teams-social-item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  style: none;
+  background-color: var(--main-bcg-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.teams-social-icon-block .teams-social-item + .teams-social-item{
+  margin-left: 10px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  fill: #afb1b8;
+  background: none;
+}
+.teams-social-item:hover,
+.teams-social-item:focus {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.teams-social-item:hover .social-icon,
+.teams-social-item:focus .social-icon {
+  fill: #ffffff;
+}
+
+/* -------- Блок-наши партнёры (Герой) --------- */
+
+.partners {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color1);
+  margin-bottom: 50px;
+  margin-top: 188px;
+  padding: 0;
+}
+.partners-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  style: none;
+  margin-bottom: 94px;
+}
+.partners-block{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.partners-list .partners-block + .partners-block{
+  margin-left: 30px;
+}
+.partners-icon{
+  width: 106px;
+  height: 60px;
+  padding: 0;
+  fill: #afb1b8;
+  background: none;
+}
+.partners-block:hover,
+.partners-block:focus {
+  border: 1px solid var(--brand-color);
+  color: var(--brand-color);
+}
+.partners-block:hover .partners-icon,
+.partners-block:focus .partners-icon {
+  fill: var(--brand-color);
+}

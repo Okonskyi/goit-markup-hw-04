@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +15,8 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
 <body>
-    <!-- Шапка сайта (Хеддер) -->
+    <!-------- Шапка сайта (Хеддер) -------->
     <header class="header">
         <div class="conteiner header__conteiner">
             <a class="logo" href="./index.html">
@@ -61,6 +59,7 @@
         <div class="top-line"></div>
     </header>
     <!-------- Блок-герой --------->
+    <main>
         <div class="hero-homepage" >
             <section class="conteiner">
                 <div class="hero-homepage-content">
@@ -69,92 +68,261 @@
                         <span class="button-hero-homepage-text">Заказать услугу</span>
                     </button>
                 </div>
-               
+                
             </section>
         </div>
-
-        <!-- Преимущества -->
-        <section>
+            <!-- Преимущества -->
+        <section class="conteiner" >
             <h2 class="title-benefits">Наши преимущества</h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Блок-Фотографии -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li> <img src="./images/box-1.jpg" width="370" height="294" alt="Программирование для компьютеров"></li>
-                <li> <img src="./images/box-2.jpg" width="370" height="294" alt="Разработка мобильных приложений"> </li>
-                <li> <img src="./images/box-3.jpg" width="370" height="294" alt="Веб-дизайн"></li>
-            </ul>
-        </section>
-        
-        <!-- Блок-наша-команда -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./images/igor-demyanenko.jpg" width="270" height="260" alt="Игорь Демьяненко">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/olga-repina.jpg" width="270" height="260" alt="Ольга Репина">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/nikolay-tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/mikhail-ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    
-            <!-- Подвал сайта (Футтер) -->
-            <footer class="footer">
-                <div class="conteiner">
-                    <a class="logo" href="./index.html"><span class="logo-web">Web</span><span
-                            class="logo-studio-footer">Studio</span></a>
-                    <address>
-                        <ul class="footer-nav">
-                            <li class="nav__item footer-nav-link">
-                                <a class="color-footer-100" href="https://goo.gl/maps/j9MTgF3zTzyEW6Uz7" target=_blank
-                                    rel=noopener>г. Киев, пр-т Леси Украинки, 26</a>
-                            </li>
-                            <li class="nav__item footer-nav-link">
-                                <a class="color-footer-60" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                            </li>
-                            <li class="nav__item footer-nav-link">
-                                <a class="color-footer-60" href="tel:+380961111111">+38 096 111 11 11</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
-            </footer>
-            </body>
+            <div>
+                <ul class="benefits-list">
+                    <li class="benefits-block icon-antena">
+                        <h3 class="benefit-name">Внимание к деталям</h3>
+                        <p class="benefit-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="benefits-block icon-diagram">
+                        <h3 class="benefit-name">Пунктуальность</h3>
+                        <p class="benefit-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="benefits-block icon-clock">
+                        <h3 class="benefit-name">Планирование</h3>
+                        <p class="benefit-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="benefits-block icon-astronaut">
+                        <h3 class="benefit-name">Современные технологии</h3>
+                        <p class="benefit-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
             
-            </html>
+        </section>
+            <!-- Блок-Фотографии -->
+        <section class="conteiner">
+            <h2 class="worktype">Чем мы занимаемся</h2>
+            <ul class="worktype-list" >
+                <li class="worktype-blocks"> <img src="./images/box-1.jpg" width="370" height="294" alt="Программирование для компьютеров"></li>
+                <li class="worktype-blocks"> <img src="./images/box-2.jpg" width="370" height="294" alt="Разработка мобильных приложений"> </li>
+                <li class="worktype-blocks"> <img src="./images/box-3.jpg" width="370" height="294" alt="Веб-дизайн"></li>
+            </ul>
+        </section>
+            <!-- Блок-наша-команда -->
+        <section class="conteiner">
+            <h2 class="team">Наша команда</h2>
+            <ul class="teams-list" >
+                <li class="teams-block">
+                    <img src="./images/igor-demyanenko.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                    <h3 class="teammate">Игорь Демьяненко</h3>
+                    <p class="profession">Product Designer</p>
+                    <ul class="teams-social-icon-block"> 
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-instagram-1></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-twitter-2></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon" class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-facebook-3></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-linkedin-4></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="teams-block">
+                    <img src="./images/olga-repina.jpg" width="270" height="260" alt="Ольга Репина">
+                    <h3 class="teammate">Ольга Репина</h3>
+                    <p class="profession">Frontend Developer</p>
+                    <ul>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-instagram-1></use>
+                                </svg>
+                            </a>
+                            </button>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-twitter-2></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-facebook-3></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-linkedin-4></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="teams-block">
+                    <img src="./images/nikolay-tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
+                    <h3 class="teammate">Николай Тарасов</h3>
+                    <p class="profession">Marketing</p>
+                    <ul>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-instagram-1></use>
+                                </svg>
+                            </a>
+                            </button>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-twitter-2></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-facebook-3></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-linkedin-4></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>                    
+                </li>
+                <li class="teams-block">
+                    <img src="./images/mikhail-ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
+                    <h3 class="teammate">Михаил Ермаков</h3>
+                    <p class="profession">UI Designer</p>
+                    <ul>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-instagram-1></use>
+                                </svg>
+                            </a>
+                            </button>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-twitter-2></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-facebook-3></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teams-social-item">
+                            <a href="./index.html">
+                                <svg class="social-icon">
+                                    <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-linkedin-4></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <!-- Блок постоянные клиенты -->
+        <section class="conteiner">
+            <h2 class="partners">Постоянные клиенты</h2>
+            <ul class="partners-list">
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-1></use>
+                        </svg>
+                    </a>
+                </li> 
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-2></use>
+                        </svg>
+                    </a>
+                </li> 
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-3></use>
+                        </svg>
+                    </a>
+                </li> 
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-4></use>
+                        </svg>
+                    </a>
+                </li> 
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-5></use>
+                        </svg>
+                    </a>
+                </li> 
+                <li class="partners-block">
+                    <a href="./index.html">
+                        <svg class="partners-icon">
+                            <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-company-6></use>
+                        </svg>
+                    </a>
+                </li>                
+            </ul>
+        </section>
+    </main>   
+    <!-------- Подвал сайта (Футтер) -------->
+    <footer class="footer">
+        <div class="conteiner">
+            <a class="logo" href="./index.html"><span class="logo-web">Web</span><span
+                    class="logo-studio-footer">Studio</span></a>
+            <address>
+                <ul class="footer-nav">
+                    <li class="nav__item footer-nav-link">
+                        <a class="color-footer-100" href="https://goo.gl/maps/j9MTgF3zTzyEW6Uz7" target=_blank
+                            rel=noopener>г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <li class="nav__item footer-nav-link">
+                        <a class="color-footer-60" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="nav__item footer-nav-link">
+                        <a class="color-footer-60" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</body>
+</html>
