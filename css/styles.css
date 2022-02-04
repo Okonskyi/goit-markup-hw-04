@@ -131,8 +131,27 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.color-top {
+.color-top-mail {
   color: var(--brand-text-color2);
+}
+.color-top-mail::before{
+  content: "";  
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(/images/svg/vse-svg-webstudio-nofill.svg#icon-Vector-mail);
+  background-size: contain;
+}
+.color-top-phone {
+  color: var(--brand-text-color2);
+}
+.color-top-phone::before{
+  content: "";  
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+  background-image: url(/images/svg/vse-svg-webstudio-nofill.svg#icon-Vector-call);
+  background-size: contain;
 }
 .active {
   color: var(--brand-color);
