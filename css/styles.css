@@ -60,6 +60,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .header__conteiner {
   display: flex;
 }
@@ -140,7 +141,18 @@ img {
   background-color: #ececec;
   height: 1px;
 }
-
+.benefits-block::before {
+  display: block;
+  content: "";
+  height: 120px;
+  border-radius: 4px;
+  /* background-image: url(../images/png/Benefits/antenna\ 1.png); */
+  /* background-size: contain; */
+  background: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
 /* ---------- Страница Портфолио---Основной контент (Герой) ---------- */
 
 .main-title-portfolio-page {
@@ -215,10 +227,11 @@ img {
 /* --------- Подвал сайта (Футтер) --------- */
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
   background-color: var(--footer-color);
   margin: 0 auto;
+  padding:0;
   max-width: 1600px;
 }
 .logo-studio-footer {
@@ -231,6 +244,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 9px;
+  width: 231px;
 }
 .footer-nav {
   display: flex;
@@ -244,7 +258,139 @@ img {
 .color-footer-60 {
   color: rgba(255, 255, 255, 0.6);
 }
+/* ---------- Продолжение футера----------- */
+.footer__conteiner {
+  display: inline-flex;
+  width: 1230px;
 
+}
+.footer-communicate-main-1{
+  display: flex;
+  margin-top: 53px;
+  width: 231px;
+}
+.footer-communicate-main-2{
+  /* display: inline; */
+  margin-top: 65px;
+  margin-left: 70px;
+  display: inline-block;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-communicate-main-3{
+  /* display: inline; */
+  margin-top: 65px;
+  margin-left: 93px;
+  display: inline-block;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-communicate-main-4{
+  /* display: inline; */
+  /* margin-top: 65px; */
+  margin-left: 12px;
+  margin:0 auto;
+  display: inline-block;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-title{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-bcg-color);
+  margin-bottom: 20px;
+  /* padding: bottom 20px; */
+}
+.footer-teams-social-icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 206px;
+  height: 44px;
+}
+.footer-teams-social-item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  style: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.footer-teams-social-icon-block .footer-teams-social-item + .footer-teams-social-item{
+  margin-left: 10px;
+}
+.footer-teams-social-item:hover,
+.footer-teams-social-item:focus {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.footer-teams-social-item:hover .social-icon,
+.footer-teams-social-item:focus .social-icon {
+  fill: #ffffff;
+}
+.email-form{
+  width: 358px;
+  height: 50px;
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.footer-email{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 17px 295px 13px 16px;
+}
+.subscribe-btn{
+  display: inline-flex;
+  padding: 10px 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--brand-color);
+  margin: 101px 215px 101px 12px;
+}
+.subscribe-text {
+  style:none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-bcg-color);
+}
+.subscribe-icon{
+  padding: 0;
+  margin: 0;
+  fill: var(--main-bcg-color);
+  margin-left: 10px;
+}
 /* ---------- Главная страница----------- */
 
 /* -----------Основной контент (Герой) ---------- */
@@ -384,10 +530,18 @@ img {
 .worktype-list {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 
 /* -------- Блок-наша-команда (Герой) --------- */
-
+.team__conteiner{
+  margin: 0 auto;
+  padding:0;
+  max-width: 1600px;
+  background-color: var(--filter-btn-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team {
   font-style: normal;
   font-weight: bold;
@@ -396,8 +550,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-text-color1);
+  background: none;
   margin-bottom: 50px;
-  margin-top: 188px;
 }
 .teams-list {
   display: flex;
@@ -488,7 +642,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--brand-text-color1);
   margin-bottom: 50px;
-  margin-top: 188px;
+  margin-top: 94px;
   padding: 0;
 }
 .partners-list {
