@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-<!-------- Шапка сайта (Хеддер) -------->
+    <!-------- Шапка сайта (Хеддер) -------->
     <header class="header">
         <div class="conteiner header__conteiner">
             <a class="logo" href="./index.html">
@@ -40,16 +40,20 @@
                 </ul>
             </nav>
             <ul class="auth-nav">
-                <li class="auth-nav-item ">
-                    <a class="color-top" href="mailto:info@devstudio.com">
-                        <!--<span class="nav-info-top">-->info@devstudio.com
-                        <!--</span>-->
+                <li class="auth-nav-item">
+                    <a href="mailto:info@devstudio.com" class="auth-nav-item-contact">
+                        <svg class="contacts-items-link" width="16" height="12">
+                            <use href="./images/svg/vse-svg-webstudio-nofill.svg#icon-konvert">
+                            </use>
+                        </svg>info@devstudio.com
                     </a>
                 </li>
                 <li class="auth-nav-item">
-                    <a class="color-top" href="tel:+380961111111">
-                        <!--<span class="nav-info-top">-->+38 096 111 11 11
-                        <!--</span>-->
+                    <a href="tel:+380961111111" class="auth-nav-item-contact">
+                        <svg class="contacts-items-link" width="16" height="12">
+                            <use href="./images/svg/vse-svg-webstudio-nofill.svg#icon-phone">
+                            </use>
+                        </svg>+38 096 111 11 11
                     </a>
                 </li>
             </ul>
@@ -157,24 +161,86 @@
             </div>
     
     </main>
-<!-------- Подвал сайта (Футтер) -------->
-    <footer class="footer">
-        <div class="conteiner">
-            <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
-            <address>
-                <ul class="footer-nav">
-                    <li class="nav__item footer-nav-link">
-                        <a class="color-footer-100" href="https://goo.gl/maps/j9MTgF3zTzyEW6Uz7" target=_blank rel=noopener>г. Киев, пр-т Леси Украинки, 26</a>
+   <!-------- Подвал сайта (Футтер) -------->
+   <footer class="footer">
+    <div class="conteiner">
+        <div class="footer__conteiner">
+            <div class="footer-communicate-main-1">
+                <div>
+                    <a class="logo" href="./index.html">
+                        <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
+                    </a>
+                    <address>
+                        <ul class="footer-nav">
+                            <li class="nav__item footer-nav-link">
+                                <a class="color-footer-100" href="https://goo.gl/maps/j9MTgF3zTzyEW6Uz7" target=_blank
+                                    rel=noopener>г. Киев, пр-т Леси Украинки, 26</a>
+                            </li>
+                            <li class="nav__item footer-nav-link">
+                                <a class="color-footer-60" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="nav__item footer-nav-link">
+                                <a class="color-footer-60" href="tel:+380961111111">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-communicate-main-2">
+                <span class="footer-title">Присоединяйтесь</span>
+                <ul class="footer-teams-social-icon-block">
+                    <li class="footer-teams-social-item">
+                        <a href="./index.html">
+                            <svg class="social-icon">
+                                <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-instagram-1></use>
+                            </svg>
+                        </a>
+                        </button>
                     </li>
-                    <li class="nav__item footer-nav-link">
-                        <a class="color-footer-60" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="footer-teams-social-item">
+                        <a href="./index.html">
+                            <svg class="social-icon">
+                                <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-twitter-2></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="nav__item footer-nav-link">
-                        <a class="color-footer-60" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="footer-teams-social-item">
+                        <a href="./index.html">
+                            <svg class="social-icon">
+                                <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-facebook-3></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-teams-social-item">
+                        <a href="./index.html">
+                            <svg class="social-icon">
+                                <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-linkedin-4></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>     
+            <div class="footer-communicate-main-3">
+                <span class="footer-title" >
+                    Подпишитесь на рассылку
+                </span>
+                <div class="email-form" >
+                    <span class="footer-email">E-mail</span> 
+                </div>
+            </div>
+            <div class="footer-communicate-main-4">
+                <a class="subscribe-btn"> 
+                    <span class="subscribe-text"> Подписаться</span>
+                    <svg class="subscribe-icon">
+                        <use href=./images/svg/vse-svg-webstudio-nofill.svg#icon-icon-send></use>
+                    </svg>
+                </a>
+                    <!-- <button name="Подписаться" type="button" class="subscribe">Подписаться
+                    </button>  -->
+            </div>
         </div>
-    </footer>
+
+    </div>
+</footer>
 </body>
 </html>

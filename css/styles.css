@@ -131,28 +131,28 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.color-top-mail {
+.auth-nav-item-contact{
   color: var(--brand-text-color2);
+  padding-top: 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.color-top-mail::before{
-  content: "";  
-  width: 16px;
-  height: 12px;
+.auth-nav-item-contact:hover,
+.auth-nav-item-contact:focus{
+  color: var(--brand-color);
+}
+.contacts-items-link{
+  fill: currentColor;
   margin-right: 10px;
-  background-image: url(/images/svg/vse-svg-webstudio-nofill.svg#icon-Vector-mail);
-  background-size: contain;
+  vertical-align: middle;
 }
-.color-top-phone {
-  color: var(--brand-text-color2);
-}
-.color-top-phone::before{
-  content: "";  
-  width: 16px;
-  height: 10px;
-  margin-right: 10px;
-  background-image: url(/images/svg/vse-svg-webstudio-nofill.svg#icon-Vector-call);
-  background-size: contain;
-}
+
 .active {
   color: var(--brand-color);
 }
@@ -165,8 +165,6 @@ img {
   content: "";
   height: 120px;
   border-radius: 4px;
-  /* background-image: url(../images/png/Benefits/antenna\ 1.png); */
-  /* background-size: contain; */
   background: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
@@ -522,17 +520,6 @@ img {
 .icon-astronaut::before {
   background-image: url(/images/png/Benefits/astronaut\ 1.png);
 }
-/* .benefits-block:nth-child(1)::before {
-  background-image: url(/images/png/Benefits/antenna\ 1.png);
-}
-.benefits-block:nth-child(2)::before {
-  background-image: url(/images/png/Benefits/diagram\ 1.png);
-}
-.benefits-block:nth-child(3)::before {
-  background-image: url(/images/png/Benefits/clock\ 1.png);
-}
-.benefits-block:nth-child(4)::before {
-  background-image: url(/images/png/Benefits/astronaut\ 1.png); */
 
 /* -------- Блок-Фотографии (Герой) --------- */
 
@@ -553,6 +540,7 @@ img {
 }
 
 /* -------- Блок-наша-команда (Герой) --------- */
+
 .team__conteiner{
   margin: 0 auto;
   padding:0;
@@ -574,7 +562,7 @@ img {
 }
 .teams-list {
   display: flex;
-  margin: 50px 0;
+  margin: 0;
 }
 .teams-block {
   width: 270px;
