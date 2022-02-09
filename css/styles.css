@@ -131,7 +131,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.auth-nav-item-contact{
+.auth-nav-item-contact {
   color: var(--brand-text-color2);
   padding-top: 32px;
   font-family: "Roboto", sans-serif;
@@ -144,10 +144,10 @@ img {
   padding-bottom: 32px;
 }
 .auth-nav-item-contact:hover,
-.auth-nav-item-contact:focus{
+.auth-nav-item-contact:focus {
   color: var(--brand-color);
 }
-.contacts-items-link{
+.contacts-items-link {
   fill: currentColor;
   margin-right: 10px;
   vertical-align: middle;
@@ -248,7 +248,7 @@ img {
   padding-bottom: 60px; */
   background-color: var(--footer-color);
   margin: 0 auto;
-  padding:0;
+  padding: 0;
   max-width: 1600px;
 }
 .logo-studio-footer {
@@ -279,14 +279,13 @@ img {
 .footer__conteiner {
   display: inline-flex;
   width: 1230px;
-
 }
-.footer-communicate-main-1{
+.footer-communicate-main-1 {
   display: flex;
   margin-top: 53px;
   width: 231px;
 }
-.footer-communicate-main-2{
+.footer-communicate-main-2 {
   /* display: inline; */
   margin-top: 65px;
   margin-left: 70px;
@@ -296,7 +295,7 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.footer-communicate-main-3{
+.footer-communicate-main-3 {
   /* display: inline; */
   margin-top: 65px;
   margin-left: 93px;
@@ -306,18 +305,18 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.footer-communicate-main-4{
+.footer-communicate-main-4 {
   /* display: inline; */
   /* margin-top: 65px; */
   margin-left: 12px;
-  margin:0 auto;
+  margin: 0 auto;
   display: inline-block;
   /* display: flex; */
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.footer-title{
+.footer-title {
   display: flex;
   margin: 0;
   padding: 0;
@@ -341,7 +340,7 @@ img {
   width: 206px;
   height: 44px;
 }
-.footer-teams-social-item{
+.footer-teams-social-item {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -351,7 +350,9 @@ img {
   height: 44px;
   border-radius: 50%;
 }
-.footer-teams-social-icon-block .footer-teams-social-item + .footer-teams-social-item{
+.footer-teams-social-icon-block
+  .footer-teams-social-item
+  + .footer-teams-social-item {
   margin-left: 10px;
 }
 .footer-teams-social-item:hover,
@@ -363,14 +364,14 @@ img {
 .footer-teams-social-item:focus .social-icon {
   fill: #ffffff;
 }
-.email-form{
+.email-form {
   width: 358px;
   height: 50px;
   outline: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.footer-email{
+.footer-email {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -381,7 +382,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
   padding: 17px 295px 13px 16px;
 }
-.subscribe-btn{
+.subscribe-btn {
   display: inline-flex;
   padding: 10px 30px;
   width: 200px;
@@ -389,9 +390,10 @@ img {
   border-radius: 4px;
   background-color: var(--brand-color);
   margin: 101px 215px 101px 12px;
+  cursor: pointer;
 }
 .subscribe-text {
-  style:none;
+  style: none;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -402,7 +404,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--main-bcg-color);
 }
-.subscribe-icon{
+.subscribe-icon {
   padding: 0;
   margin: 0;
   fill: var(--main-bcg-color);
@@ -420,7 +422,8 @@ img {
   display: flex;
   justify-content: center;
   background-color: #c4c4c4;
-  background-image: linear-gradient(to right, #2f303a66, #2f303a66), url("../images/Hero.jpg");
+  background-image: linear-gradient(to right, #2f303a66, #2f303a66),
+    url("../images/Hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -541,9 +544,9 @@ img {
 
 /* -------- Блок-наша-команда (Герой) --------- */
 
-.team__conteiner{
+.team__conteiner {
   margin: 0 auto;
-  padding:0;
+  padding: 0;
   max-width: 1600px;
   background-color: var(--filter-btn-color);
   padding-top: 94px;
@@ -608,7 +611,7 @@ img {
   /* width: 206px; */
   height: 44px;
 }
-.teams-social-item{
+.teams-social-item {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -618,7 +621,7 @@ img {
   height: 44px;
   border-radius: 50%;
 }
-.teams-social-icon-block .teams-social-item + .teams-social-item{
+.teams-social-icon-block .teams-social-item + .teams-social-item {
   margin-left: 10px;
 }
 .social-icon {
@@ -661,7 +664,7 @@ img {
   style: none;
   margin-bottom: 94px;
 }
-.partners-block{
+.partners-block {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -672,10 +675,10 @@ img {
   align-items: center;
   padding: 0;
 }
-.partners-list .partners-block + .partners-block{
+.partners-list .partners-block + .partners-block {
   margin-left: 30px;
 }
-.partners-icon{
+.partners-icon {
   width: 106px;
   height: 60px;
   padding: 0;
